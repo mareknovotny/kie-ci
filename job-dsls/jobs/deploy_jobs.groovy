@@ -61,13 +61,7 @@ def final REPO_CONFIGS = [
         "droolsjbpm-knowledge"      : [
                 timeoutMins            : 40,
                 ircNotificationChannels: ["#droolsdev"],
-                downstreamRepos        : ["drlx-parser"]
-        ],
-        "drlx-parser"               : [
-                timeoutMins            : 20,
-                label                  : "rhel7 && mem4g",
-                ircNotificationChannels: ["#droolsdev"],
-                downstreamRepos        : ["drools"]
+                downstreamRepos        : []
         ],
         "drools"                    : [
                 ircNotificationChannels: ["#droolsdev"],

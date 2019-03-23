@@ -49,9 +49,6 @@ def final REPO_CONFIGS = [
         "droolsjbpm-knowledge"      : [
                 label: "rhel7 && mem4g"
         ],
-        "drlx-parser"               : [
-                label: "rhel7 && mem4g"
-        ],
         "drools"                    : [],
         "optaplanner"               : [],
         "optashift-employee-rostering" : [
